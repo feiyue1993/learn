@@ -1,2 +1,1 @@
-# learn
-study_note
+记录学习过程
