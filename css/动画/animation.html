@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>animation</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        div{
+            display: inline-block;
+            width: 300px;
+            height: 300px;
+            background: red;
+        }
+
+        @keyframes ml{
+            from{
+                margin-left: 0;
+            }
+
+            to{
+                margin-left: 100px;
+            }
+        }
+
+        .animate{
+            animation-name: ml;
+            /*
+             *  动画时间间隔
+             */
+            animation-duration: 2s;
+            /*
+             *  动画延时开始的时间
+             */
+            animation-delay: 0s;
+            /*
+             *  默认值:normal
+             *  normal: 动画向前循环,动画结束回到起点
+             *  alternate: 动画交替反向运行
+             *  reverse: 反向运行动画 与normal相反
+             *  alternate-reverse: 动画交替反向运行，从反向开始
+             */
+            animation-direction: normal;
+            /*
+             *  动画在结束前运行的次数
+             *  infinite: 无数次
+             *  可指定多个值,在指定多个animation-name时分别对应
+             */
+            animation-iteration-count: 1;
+            /*
+             *  定义一个动画是否运行或者暂停
+             *  running: 运行
+             *  pause: 暂停
+             */
+            animation-play-state: running;
+            /*
+             *  定义动画每个周期的执行节奏
+             *  cubic-bezier: 贝塞尔曲线
+             *  linear: 线性
+             *  ease: 快-缓
+             *  ease-in: 缓-快
+             *  ease-in-out: 缓-快-缓
+             *  ease-out:   快-缓
+             *  steps(0,start)
+             *  start: 直接开始,动画开始就已经执行完第一帧,然后到动画结束
+             *  end: 戛然而止,动画从第一帧开始,还没执行完最后一帧就结束
+             */
+            animation-timing-function: steps(3, start);
+            /*
+             *  设置动画执行前和执行后如何将样式应用与目标
+             *  none: 动画等待和结束时,元素使用默认延时
+             *  forwards:   动画结束时,元素使用最后一帧的样式
+             *  backwards:  动画等待时，元素使用动画第一帧样式,动画结束时,元素使用默认样式
+             *  both: 动画等待时,元素使用动画第一帧样式,动画结束时,元素使用最后一帧样式
+             */
+            animation-fill-mode: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="animate"></div>text
+</body>
+</html>

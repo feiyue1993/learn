@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>transform</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        div{
+            display: inline-block;
+            width: 300px;
+            height: 300px;
+            background: red;
+        }
+
+        .transform{
+            /*
+             *  设置元素变形的原点
+             */
+            transform-origin: left top;
+
+            /*
+             *  伸缩
+             */
+            /*transform: scale(.2, .2);*/
+
+            /*
+             *  平移
+             */
+            /*transform: translate(10%, 10%);*/
+
+            /*
+             *  旋转
+             */
+            /*transform: rotate(45deg);*/
+
+            /*
+             *  扭曲
+             */
+            /*transform: skew(0deg, 45deg);*/
+
+            /*
+             *  矩阵变形
+             *  scale(x,y) => matrix(x, 0, 0, y, 0, 0);
+             *  translate(x,y) => matrix(1, 0, 0, 1, x, y);
+             *  rotate(ø) => matrix(cosø, sinø, -sinø, cosø, 0, 0);
+             *  skew(x, y) => matrix(1, tany, tanx, 1, 0, 0);
+             */
+            transform: matrix(2, 0, 0, 2, 30, 30);
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <div class="transform"></div>
+</body>
+</html>
