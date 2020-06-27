@@ -1,7 +1,7 @@
 /*
  *  @author: feiyue
- *  @brief: typescript类型语法练习
- *  @dete: 2020-06-23 13:53
+ *  @brief: typescript类型
+ *  @dete: 2020-06-27 14:46
  *  @version: 1.0.0
  */
 
@@ -13,78 +13,121 @@ let isDone: boolean = false;
 /*
  *  数字
  */
-let decLiteral: number = 6;
-let hexLiteral: number = 0xf00d;
-let binaryLiteral: number = 0b1010;
-let octalLiteral: number = 0o744;
+let decLiteral: number = 20;
+let hexLiteral: number = 0x14;
+let binaryLiteral: number = 0b10100;
+let octalLiteral: number = 0o24;
 
 /*
  *  字符串
  */
-let name: string = `feiyue`;
-let age: number = 27;
-let sentence: string = `Hello, my name is ${name}
-    I'll be ${age} years old;
-`
+{
+    let name: string = 'bob';
+    name = 'simth';
+}
+{
+    let name: string = `Yee`;
+    let age: number = 37;
+    let sentence: string = `Hello, my name is ${name}.
+        I'll be ${ age + 1 } years old next month.
+    `
+}
+
 
 /*
  *  数组
  */
-let list1: number[] = [1, 2, 3];
-let list2: Array<number> = [1, 2, 3];
+let list: Array<number> = [1,2,3,4];
 
 /*
- *  元组 各元素的类型不同的数组
+ *  元组:允许表示一个已知元素数量和类型的数组,各元素的类型不必相同.
  */
-let x: [string, number];
-x = ['hello', 27];
+{
+    let x: [string, number];
+    x = ['hello', 10]; // ok
+// x = [10, 'hello']; // error
+    /* 访问越界元素,会使用联合类型替代 */
+    x[3] = 'world';
+}
 
 /*
  *  枚举
  */
-enum Color {Red, Green, Blue};
-let c: Color = Color.Green;
-//  枚举的便利,根据枚举的值获取它的名字
-let colorName: string = Color[c];
-
-/*
- *  Any:不希望类型检查器对变量进行类型检查,让它们通过编译阶段,使用any标记
- */
-let notSure: any = 4;
-notSure = "maybe a string instead";
-notSure = false;
-
-/*
- *  void:表示没有任何类型,函数没有返回值时使用void
- */
-function warnUser(): void{
-    console.log("This is my warning message");
-}
-//  为变量声明void没用,只能赋值undefined和null
-let unusable: void = null;
-
-/*
- *  null和undefined,多用于联合类型
- */
-
-/*
- *  never:表示哪些永不存在的值的类型,表示总是会抛出异常和根本就不会有返回值的函数表达式或箭头函数表达式的返回值类型
- */
-
-/*
- *  Object:表示非原始类型
- */
-
-/*
- *  类型断言
- */
-//  第一种形式:尖括号语法
 {
-    let someValue: any = "this is a string";
-    let strLength: number = (<string> someValue).length;
+    /* 编号默认从零开始 */
+    enum Color {Red, Green, Blue};
+    let c: Color = Color.Green;
+
+    /* 可以自己指定编号 */
+    enum CustomColor{Red=2, Green=4, Blue = 6};
+
+    /* 可以数值获取它的名字 */
+    let colorName: string = CustomColor[2];
 }
-//  第二种形式:as语法
+
+/*
+ *  any: 代表任意类型,允许在编译时可选择的包含或移除类型检查
+ */
 {
-    let someValue: any = "this is a string";
-    let strLength: number = (someValue as string).length;
+    let list: any[] = [1, true, 'free'];
+    list[1] = 100;
+}
+
+/*
+ *  void: 表示没有类型,当函数没有返回值时为void
+ */
+{
+    function warnUser():void{
+        console.log('This is my warning message');
+    }
+}
+
+/*
+ *  null 和 undefined
+ */
+
+/*
+ *  never: 表示哪些永不存在的值的类型,可以用于表示那些总是会抛出异常或根本就不会有返回值的函数表达式的返回值类型
+ */
+{
+    function error(message: string): never{
+        throw new Error(message);
+    }
+
+    /* 推断的类型为never */
+    function fail(){
+        return error('Something failed');
+    }
+
+    /* 存在无法达到的终点 */
+    function infiniteLoop(): never{
+        while(true){}
+    }
+}
+
+/*
+ *  object: 表示非原始类型
+ */
+declare function create(o: object| null): void
+create({prop: 0});
+create(null);
+
+create(42);
+create('string');
+create(false);
+create(undefined);
+
+/*
+ *  类型断言: 当你比ts更了解某个值的详细信息时,好比其他语言的类型转换
+ *  两种表示法
+ */
+{
+    /* 尖括号表示法 */
+    let someValue: any = 'this is a string';
+    let strLen: number = (<string> someValue).length;
+}
+{
+    /* as语法 */
+    let someValue: any = 'this is a string';
+    let strLen: number = (someValue as string).length;
 }
