@@ -19,21 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="256e67d3-9b6a-48f1-bba2-8fd38dba7116" name="Default Changelist" comment="前端自动化构建">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/typescript/demo/05interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/typescript/demo/06class.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/typescript/demo/07generic.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/typescript/demo/08advance.ts" afterDir="false" />
+    <list default="true" id="256e67d3-9b6a-48f1-bba2-8fd38dba7116" name="Default Changelist" comment="typescript基础语法">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/XMLHttpRequest/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/XMLHttpRequest/XMLHttpRequest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/XMLHttpRequest/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/typescript/ts_axios/src/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/typescript/ts_axios/src/xhr.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/typescript/ts_axios/types/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript/typescript/01type.ts" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/typescript/demo/01type.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript/typescript/02reference.ts" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/typescript/demo/02reference.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript/typescript/02type-declare.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript/typescript/03declare.ts" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/typescript/demo/03declare.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript/typescript/03interface.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript/typescript/04function.ts" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/typescript/demo/04function.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript/typescript/05接口.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/算法训练营7天/第一天作业/02demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/算法训练营7天/第一天作业/02demo.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +37,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="TypeScript File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -68,7 +62,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../static" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bpmn-js-examples-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -80,7 +74,7 @@
       <recent name="C:\Users\WDZN\Desktop\learn\javascript\typescript\demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.02demo.js">
+  <component name="RunManager" selected="Node.js.XMLHttpRequest.js">
     <configuration name="01type.ts" type="NodeJSConfigurationType" temporary="true" node-parameters="--require ts-node/register " path-to-js-file="$PROJECT_DIR$/javascript/typescript/001type.ts" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -90,15 +84,19 @@
     <configuration name="02type-declare.ts" type="NodeJSConfigurationType" temporary="true" node-parameters="--require ts-node/register " path-to-js-file="$PROJECT_DIR$/javascript/typescript/002type-declare.ts" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="XMLHttpRequest.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/javascript/XMLHttpRequest/XMLHttpRequest.js" working-dir="$PROJECT_DIR$/javascript/XMLHttpRequest">
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Node.js.01type.ts" />
       <item itemvalue="Node.js.02demo.js" />
       <item itemvalue="Node.js.02type-declare.ts" />
+      <item itemvalue="Node.js.XMLHttpRequest.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.XMLHttpRequest.js" />
         <item itemvalue="Node.js.02demo.js" />
-        <item itemvalue="Node.js.02type-declare.ts" />
         <item itemvalue="Node.js.02type-declare.ts" />
         <item itemvalue="Node.js.02type-declare.ts" />
         <item itemvalue="Node.js.02type-declare.ts" />
@@ -124,7 +122,7 @@
       <workItem from="1593521929963" duration="873000" />
       <workItem from="1593563522778" duration="1141000" />
       <workItem from="1593567598433" duration="8318000" />
-      <workItem from="1593648743266" duration="11323000" />
+      <workItem from="1593648743266" duration="23413000" />
     </task>
     <task id="LOCAL-00001" summary="块级作用域">
       <created>1592916471702</created>
@@ -168,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593608123174</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="typescript基础语法">
+      <created>1593660140261</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1593660140261</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +196,8 @@
     <MESSAGE value="typescript语法" />
     <MESSAGE value="算法训练营第一天作业" />
     <MESSAGE value="前端自动化构建" />
-    <option name="LAST_COMMIT_MESSAGE" value="前端自动化构建" />
+    <MESSAGE value="typescript基础语法" />
+    <option name="LAST_COMMIT_MESSAGE" value="typescript基础语法" />
   </component>
   <component name="WindowStateProjectService">
     <state x="820" y="277" width="698" height="342" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1592891267902">
@@ -206,26 +212,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="959" y="223" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592898888605" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1593564069328">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1593691148812">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593564069328" />
-    <state width="1899" height="280" key="GridCell.Tab.0.bottom" timestamp="1593437999986">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593691148812" />
+    <state width="1899" height="279" key="GridCell.Tab.0.bottom" timestamp="1593672432627">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593437999986" />
-    <state width="1899" height="280" key="GridCell.Tab.0.center" timestamp="1593437999986">
+    <state width="1899" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593672432627" />
+    <state width="1899" height="279" key="GridCell.Tab.0.center" timestamp="1593672432627">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593437999986" />
-    <state width="1899" height="280" key="GridCell.Tab.0.left" timestamp="1593437999985">
+    <state width="1899" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593672432627" />
+    <state width="1899" height="279" key="GridCell.Tab.0.left" timestamp="1593672432627">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593437999985" />
-    <state width="1899" height="280" key="GridCell.Tab.0.right" timestamp="1593437999986">
+    <state width="1899" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593672432627" />
+    <state width="1899" height="279" key="GridCell.Tab.0.right" timestamp="1593672432627">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593437999986" />
+    <state width="1899" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593672432627" />
     <state width="936" height="344" key="GridCell.Tab.1.bottom" timestamp="1592917168850">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -282,10 +288,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593608135824" />
-    <state x="1120" y="223" width="598" height="594" key="find.popup" timestamp="1592900904605">
+    <state x="1120" y="223" width="598" height="594" key="find.popup" timestamp="1593670561895">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1120" y="223" width="598" height="594" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592900904605" />
+    <state x="1120" y="223" width="598" height="594" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593670561895" />
     <state x="675" y="306" key="git4idea.merge.GitPullDialog" timestamp="1593608194481">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
