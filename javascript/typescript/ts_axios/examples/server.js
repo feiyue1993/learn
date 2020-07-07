@@ -42,7 +42,7 @@ router.get('/error/get', function(req, res){
             msg: `hello world`
         })
     }else{
-        res.statis(500);
+        res.status(500);
         res.end();
     }
 })
