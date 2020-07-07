@@ -19,24 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="256e67d3-9b6a-48f1-bba2-8fd38dba7116" name="Default Changelist" comment="1.ts-axios项目初始化&#10;2.webpack入口和输出配置">
-      <change afterPath="$PROJECT_DIR$/javascript/node/File System/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/node/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/node/global.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/typescript/ts_axios/examples/global.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/typescript/ts_axios/examples/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/typescript/ts_axios/examples/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/typescript/ts_axios/examples/simple/app.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/typescript/ts_axios/examples/simple/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/typescript/ts_axios/examples/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/typescript/ts_axios/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/typescript/ts_axios/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/webpack/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端项目/小程序/性能优化.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/开发中遇到的问题/README.md" afterDir="false" />
+    <list default="true" id="256e67d3-9b6a-48f1-bba2-8fd38dba7116" name="Default Changelist" comment="Beta 1.0.0">
+      <change afterPath="$PROJECT_DIR$/javascript/typescript/ts_axios/examples/base/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/typescript/ts_axios/src/helpers/headers.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript/XMLHttpRequest/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/XMLHttpRequest/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript/XMLHttpRequest/XMLHttpRequest.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/XMLHttpRequest/XMLHttpRequest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/typescript/ts_axios/examples/simple/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/typescript/ts_axios/examples/simple/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/typescript/ts_axios/src/helpers/data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/typescript/ts_axios/src/helpers/data.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/typescript/ts_axios/src/helpers/url.ts" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/typescript/ts_axios/src/helpers/url.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/typescript/ts_axios/src/helpers/util.ts" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/typescript/ts_axios/src/helpers/util.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/typescript/ts_axios/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/typescript/ts_axios/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/typescript/ts_axios/src/xhr.ts" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/typescript/ts_axios/src/xhr.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/typescript/ts_axios/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/typescript/ts_axios/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/typescript/ts_axios/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/typescript/ts_axios/types/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +42,8 @@
       <list>
         <option value="CSS File" />
         <option value="HTML File" />
-        <option value="TypeScript File" />
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -74,7 +68,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bpmn-js-examples-master/starter" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/javascript/typescript/ts_axios/examples/base" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -83,7 +77,11 @@
     <property name="ts.external.directory.path" value="D:\JetBrains\WebStorm 2020.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\WDZN\Desktop\learn\javascript\typescript\ts_axios\examples\base" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\WDZN\Desktop\learn\javascript\typescript\ts_axios\src" />
       <recent name="C:\Users\WDZN\Desktop\learn\javascript\typescript\ts_axios\examples" />
       <recent name="C:\Users\WDZN\Desktop\learn\javascript\typescript\ts_axios" />
       <recent name="C:\Users\WDZN\Desktop\learn\javascript\typescript\demo" />
@@ -143,7 +141,8 @@
       <workItem from="1593567598433" duration="8318000" />
       <workItem from="1593648743266" duration="24499000" />
       <workItem from="1593739545925" duration="15129000" />
-      <workItem from="1594006592061" duration="24465000" />
+      <workItem from="1594006592061" duration="24537000" />
+      <workItem from="1594080729080" duration="22071000" />
     </task>
     <task id="LOCAL-00001" summary="块级作用域">
       <created>1592916471702</created>
@@ -201,7 +200,21 @@
       <option name="project" value="LOCAL" />
       <updated>1593695805143</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="1.ts-axios项目初始化&#10;2.webpack入口和输出配置">
+      <created>1594042531576</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1594042531576</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Beta 1.0.0">
+      <created>1594088249870</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1594088249870</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,7 +240,8 @@
     <MESSAGE value="typescript基础语法" />
     <MESSAGE value="1.axios ts实战&#10;2.xhr" />
     <MESSAGE value="1.ts-axios项目初始化&#10;2.webpack入口和输出配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.ts-axios项目初始化&#10;2.webpack入口和输出配置" />
+    <MESSAGE value="Beta 1.0.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Beta 1.0.0" />
   </component>
   <component name="WindowStateProjectService">
     <state x="820" y="277" width="698" height="342" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1592891267902">
@@ -242,26 +256,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="959" y="223" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592898888605" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1593739594741">
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1594092867761">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593739594741" />
-    <state width="936" height="278" key="GridCell.Tab.0.bottom" timestamp="1594037057119">
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594092867761" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1594103193037">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594037057119" />
-    <state width="936" height="278" key="GridCell.Tab.0.center" timestamp="1594037057119">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594103193037" />
+    <state width="936" height="278" key="GridCell.Tab.0.bottom" timestamp="1594042590592">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594037057119" />
-    <state width="936" height="278" key="GridCell.Tab.0.left" timestamp="1594037057119">
+    <state width="936" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594042590592" />
+    <state width="936" height="278" key="GridCell.Tab.0.center" timestamp="1594042590591">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594037057119" />
-    <state width="936" height="278" key="GridCell.Tab.0.right" timestamp="1594037057119">
+    <state width="936" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594042590591" />
+    <state width="936" height="278" key="GridCell.Tab.0.left" timestamp="1594042590591">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594037057119" />
+    <state width="936" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594042590591" />
+    <state width="936" height="278" key="GridCell.Tab.0.right" timestamp="1594042590592">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594042590592" />
     <state width="936" height="344" key="GridCell.Tab.1.bottom" timestamp="1592917168850">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -314,10 +332,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="165" y="48" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594034176904" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1593695822609">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1594088375939">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593695822609" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594088375939" />
     <state x="1120" y="223" width="598" height="594" key="find.popup" timestamp="1594036965710">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -326,9 +344,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="675" y="306" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594041618663" />
-    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1594040001033">
+    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1594101784895">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594040001033" />
+    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594101784895" />
   </component>
 </project>
