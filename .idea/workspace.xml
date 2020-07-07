@@ -19,17 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="256e67d3-9b6a-48f1-bba2-8fd38dba7116" name="Default Changelist" comment="Beta 1.0.0">
-      <change afterPath="$PROJECT_DIR$/javascript/typescript/ts_axios/examples/base/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/typescript/ts_axios/src/helpers/headers.ts" afterDir="false" />
+    <list default="true" id="256e67d3-9b6a-48f1-bba2-8fd38dba7116" name="Default Changelist" comment="axios 基础功能">
+      <change afterPath="$PROJECT_DIR$/javascript/typescript/ts_axios/examples/error/app.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/typescript/ts_axios/examples/error/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/typescript/ts_axios/src/helpers/error.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript/typescript/ts_axios/examples/simple/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/typescript/ts_axios/examples/simple/app.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript/typescript/ts_axios/src/helpers/data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/typescript/ts_axios/src/helpers/data.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript/typescript/ts_axios/src/helpers/url.ts" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/typescript/ts_axios/src/helpers/url.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript/typescript/ts_axios/src/helpers/util.ts" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/typescript/ts_axios/src/helpers/util.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript/typescript/ts_axios/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/typescript/ts_axios/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/typescript/ts_axios/examples/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/typescript/ts_axios/examples/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javascript/typescript/ts_axios/src/xhr.ts" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/typescript/ts_axios/src/xhr.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript/typescript/ts_axios/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/typescript/ts_axios/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javascript/typescript/ts_axios/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/typescript/ts_axios/types/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,13 +37,18 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
         <option value="TypeScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="73f57626ab1303583943913d5c9930a55eee7e84" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
@@ -142,7 +143,7 @@
       <workItem from="1593648743266" duration="24499000" />
       <workItem from="1593739545925" duration="15129000" />
       <workItem from="1594006592061" duration="24537000" />
-      <workItem from="1594080729080" duration="22071000" />
+      <workItem from="1594080729080" duration="25203000" />
     </task>
     <task id="LOCAL-00001" summary="块级作用域">
       <created>1592916471702</created>
@@ -214,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594088249870</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="axios 基础功能">
+      <created>1594110856299</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1594110856299</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,7 +249,8 @@
     <MESSAGE value="1.axios ts实战&#10;2.xhr" />
     <MESSAGE value="1.ts-axios项目初始化&#10;2.webpack入口和输出配置" />
     <MESSAGE value="Beta 1.0.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Beta 1.0.0" />
+    <MESSAGE value="axios 基础功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="axios 基础功能" />
   </component>
   <component name="WindowStateProjectService">
     <state x="820" y="277" width="698" height="342" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1592891267902">
@@ -332,10 +341,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="165" y="48" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594034176904" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1594088375939">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1594110864739">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594088375939" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594110864739" />
     <state x="1120" y="223" width="598" height="594" key="find.popup" timestamp="1594036965710">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

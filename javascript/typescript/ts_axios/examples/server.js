@@ -33,6 +33,28 @@ router.post('/base/buffer', function(req, res){
     })
 })
 
+/*
+ *  错误路由
+ */
+router.get('/error/get', function(req, res){
+    if(Math.random() > .5){
+        res.json({
+            msg: `hello world`
+        })
+    }else{
+        res.statis(500);
+        res.end();
+    }
+})
+
+router.get('/error/get', function(req, res){
+    setTimeout(() => {
+        res.json({
+            msg: `hello world`
+        })
+    }, 3000)
+})
+
 app.use(router);
 
 app.use(webpackDevMiddleware(compiler, {

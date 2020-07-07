@@ -5,6 +5,7 @@ export interface  AxiosRequestConfig {
     data?: any
     params?: any
     responseType?: XMLHttpRequestResponseType
+    timeout?: number
 }
 
 export type Method =
@@ -23,6 +24,14 @@ export interface AxiosResponse{
     headers: any
     config: AxiosRequestConfig
     request: any
+}
+
+export interface AxiosError extends Error {
+    config: AxiosRequestConfig
+    code?: string
+    request?: any
+    response?: AxiosResponse
+    isAxiosError: boolean
 }
 
 export type XMLHttpRequestResponseType = "" | "arraybuffer" | "blob" | "document" | "json" | "text";
