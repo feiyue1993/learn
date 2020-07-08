@@ -1,127 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="256e67d3-9b6a-48f1-bba2-8fd38dba7116" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/html/01双引号标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/02描述列表.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/03链接标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/API/String.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/js循环中的中断和异步/demo01.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/webpack/api/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/webpack/common/border.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/webpack/common/common.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/webpack/components/custom/date-selector/date-selector.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/webpack/components/custom/jui-popup-tip/jui-popup-tip.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/webpack/components/custom/jui-popup/jui-popup.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/webpack/components/custom/login/login.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/webpack/components/custom/meal-list/meal-list.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/webpack/components/custom/nav-bar/nav-bar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/webpack/components/custom/tab-bar/bottom-tab-bar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/webpack/components/custom/tab-bar/tab-bar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/webpack/components/custom/test/child.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/webpack/components/custom/test/jui-button-text.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/webpack/components/custom/test/jui-popup-tip.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/webpack/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/webpack/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/webpack/uni.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/webpack/utils/date.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/webpack/utils/http.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/webpack/utils/loadsh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/webpack/utils/node.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/webpack/utils/validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/webpack/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="256e67d3-9b6a-48f1-bba2-8fd38dba7116" name="Default Changelist" comment="axios 错误处理">
+      <change beforePath="$PROJECT_DIR$/javascript/typescript/ts_axios/examples/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/typescript/ts_axios/examples/server.js" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/javascript/API/String.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="85" column="15" selection-start-line="85" selection-start-column="15" selection-end-line="85" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/README.md" />
-      </list>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
     </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="73f57626ab1303583943913d5c9930a55eee7e84" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1680" />
-    <option name="height" value="957" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="javascript" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="javascript" type="462c0819:PsiDirectoryNode" />
-              <item name="js循环中的中断和异步" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="算法训练营7天" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectId" id="1dhw3EYyiDLvTQlfDM19Xg4XFzJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/javascript/typescript/ts_axios/examples/base" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="ts.external.directory.path" value="D:\JetBrains\WebStorm 2020.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\WDZN\Desktop\learn\javascript\typescript\ts_axios\examples\base" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\WDZN\Desktop\learn\javascript\typescript\ts_axios\src" />
+      <recent name="C:\Users\WDZN\Desktop\learn\javascript\typescript\ts_axios\examples" />
+      <recent name="C:\Users\WDZN\Desktop\learn\javascript\typescript\ts_axios" />
+      <recent name="C:\Users\WDZN\Desktop\learn\javascript\typescript\demo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.test.js">
+    <configuration name="02demo.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/算法训练营7天/第一天作业/02demo.js" working-dir="$PROJECT_DIR$/算法训练营7天/第一天作业">
+      <method v="2" />
+    </configuration>
+    <configuration name="XMLHttpRequest.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/javascript/XMLHttpRequest/XMLHttpRequest.js" working-dir="$PROJECT_DIR$/javascript/XMLHttpRequest">
+      <method v="2" />
+    </configuration>
+    <configuration name="global.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/javascript/node/global.js" working-dir="$PROJECT_DIR$/javascript/node">
+      <method v="2" />
+    </configuration>
+    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/javascript/typescript/ts_axios/examples/test.js" working-dir="$PROJECT_DIR$/javascript/typescript/ts_axios/examples">
+      <method v="2" />
+    </configuration>
+    <configuration name="webpack.config.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/javascript/typescript/ts_axios/examples/webpack.config.js" working-dir="$PROJECT_DIR$/javascript/typescript/ts_axios/examples">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.02demo.js" />
+      <item itemvalue="Node.js.XMLHttpRequest.js" />
+      <item itemvalue="Node.js.webpack.config.js" />
+      <item itemvalue="Node.js.global.js" />
+      <item itemvalue="Node.js.test.js" />
+    </list>
+    <recent_temporary>
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <item itemvalue="Node.js.test.js" />
+        <item itemvalue="Node.js.global.js" />
+        <item itemvalue="Node.js.webpack.config.js" />
+        <item itemvalue="Node.js.XMLHttpRequest.js" />
+        <item itemvalue="Node.js.02demo.js" />
       </list>
-    </option>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -134,47 +132,238 @@
       <option name="presentableId" value="Default" />
       <updated>1592740279895</updated>
       <workItem from="1592740281585" duration="14000" />
+      <workItem from="1592890444669" duration="7225000" />
+      <workItem from="1592898343117" duration="710000" />
+      <workItem from="1592899100451" duration="7711000" />
+      <workItem from="1593239855953" duration="10124000" />
+      <workItem from="1593426478992" duration="5380000" />
+      <workItem from="1593521929963" duration="873000" />
+      <workItem from="1593563522778" duration="1141000" />
+      <workItem from="1593567598433" duration="8318000" />
+      <workItem from="1593648743266" duration="24499000" />
+      <workItem from="1593739545925" duration="15129000" />
+      <workItem from="1594006592061" duration="24537000" />
+      <workItem from="1594080729080" duration="25288000" />
     </task>
+    <task id="LOCAL-00001" summary="块级作用域">
+      <created>1592916471702</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592916471702</updated>
+    </task>
+    <task id="LOCAL-00002" summary="typescript语法">
+      <created>1592916579709</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592916579709</updated>
+    </task>
+    <task id="LOCAL-00003" summary="typescript语法">
+      <created>1593249370416</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593249370416</updated>
+    </task>
+    <task id="LOCAL-00004" summary="typescript语法">
+      <created>1593250054015</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1593250054015</updated>
+    </task>
+    <task id="LOCAL-00005" summary="算法训练营第一天作业">
+      <created>1593429552641</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1593429552641</updated>
+    </task>
+    <task id="LOCAL-00006" summary="前端自动化构建">
+      <created>1593608123174</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1593608123174</updated>
+    </task>
+    <task id="LOCAL-00007" summary="typescript基础语法">
+      <created>1593660140261</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1593660140261</updated>
+    </task>
+    <task id="LOCAL-00008" summary="1.axios ts实战&#10;2.xhr">
+      <created>1593695805143</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1593695805143</updated>
+    </task>
+    <task id="LOCAL-00009" summary="1.ts-axios项目初始化&#10;2.webpack入口和输出配置">
+      <created>1594042531576</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1594042531576</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Beta 1.0.0">
+      <created>1594088249870</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1594088249870</updated>
+    </task>
+    <task id="LOCAL-00011" summary="axios 基础功能">
+      <created>1594110856299</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1594110856299</updated>
+    </task>
+    <task id="LOCAL-00012" summary="axios 错误处理">
+      <created>1594113731637</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1594113731637</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="957" extended-state="0" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="6" selection-start-column="6" selection-end-column="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="块级作用域" />
+    <MESSAGE value="typescript语法" />
+    <MESSAGE value="算法训练营第一天作业" />
+    <MESSAGE value="前端自动化构建" />
+    <MESSAGE value="typescript基础语法" />
+    <MESSAGE value="1.axios ts实战&#10;2.xhr" />
+    <MESSAGE value="1.ts-axios项目初始化&#10;2.webpack入口和输出配置" />
+    <MESSAGE value="Beta 1.0.0" />
+    <MESSAGE value="axios 基础功能" />
+    <MESSAGE value="axios 错误处理" />
+    <option name="LAST_COMMIT_MESSAGE" value="axios 错误处理" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="820" y="277" width="698" height="342" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1592891267902">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="820" y="277" width="698" height="342" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592891267902" />
+    <state x="633" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592899447453">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="633" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592899447453" />
+    <state x="959" y="223" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1592898888605">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="959" y="223" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592898888605" />
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1594092867761">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594092867761" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1594103193037">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594103193037" />
+    <state width="936" height="278" key="GridCell.Tab.0.bottom" timestamp="1594042590592">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594042590592" />
+    <state width="936" height="278" key="GridCell.Tab.0.center" timestamp="1594042590591">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594042590591" />
+    <state width="936" height="278" key="GridCell.Tab.0.left" timestamp="1594042590591">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594042590591" />
+    <state width="936" height="278" key="GridCell.Tab.0.right" timestamp="1594042590592">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594042590592" />
+    <state width="936" height="344" key="GridCell.Tab.1.bottom" timestamp="1592917168850">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592917168850" />
+    <state width="936" height="344" key="GridCell.Tab.1.center" timestamp="1592917168850">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="344" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592917168850" />
+    <state width="936" height="344" key="GridCell.Tab.1.left" timestamp="1592917168850">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="344" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592917168850" />
+    <state width="936" height="344" key="GridCell.Tab.1.right" timestamp="1592917168850">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="344" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592917168850" />
+    <state width="936" height="344" key="GridCell.Tab.2.bottom" timestamp="1592917168850">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="344" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592917168850" />
+    <state width="936" height="344" key="GridCell.Tab.2.center" timestamp="1592917168850">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="344" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592917168850" />
+    <state width="936" height="344" key="GridCell.Tab.2.left" timestamp="1592917168850">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="344" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592917168850" />
+    <state width="936" height="344" key="GridCell.Tab.2.right" timestamp="1592917168850">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="344" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592917168850" />
+    <state width="936" height="344" key="GridCell.Tab.3.bottom" timestamp="1592917168850">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="344" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592917168850" />
+    <state width="936" height="344" key="GridCell.Tab.3.center" timestamp="1592917168850">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="344" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592917168850" />
+    <state width="936" height="344" key="GridCell.Tab.3.left" timestamp="1592917168850">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="344" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592917168850" />
+    <state width="936" height="344" key="GridCell.Tab.3.right" timestamp="1592917168850">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="344" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592917168850" />
+    <state x="165" y="48" key="SettingsEditor" timestamp="1594034176904">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="165" y="48" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594034176904" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1594113748931">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594113748931" />
+    <state x="1120" y="223" width="598" height="594" key="find.popup" timestamp="1594036965710">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1120" y="223" width="598" height="594" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594036965710" />
+    <state x="675" y="306" key="git4idea.merge.GitPullDialog" timestamp="1594041618663">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="675" y="306" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594041618663" />
+    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1594101784895">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594101784895" />
   </component>
 </project>
