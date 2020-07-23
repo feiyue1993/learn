@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        html,body{
+            width: 100%;
+            height: 100%;
+            min-width: 800px;
+            min-height: 450px;
+            padding: 0;
+            margin: 0;
+            background: #021d5d;
+        }
+
+        .container{
+            width: 100%;
+            height: 100%;
+            display: flex;
+        }
+
+        .dashboard{
+            position: relative;
+            width: 800px;
+            height: 450px;
+            background: red;
+            top: 50%;
+        }
+        /* 面板头 */
+        .dashboard .header{
+            width: 100%;
+            height: 40px;
+            display: flex;
+            flex-flow: row nowrap;
+            background: blue;
+            font-weight: 700;
+            color: #37dbf2;
+        }
+
+        .dashboard .header .logo{
+            display: inline-flex;
+            flex: 1 1 auto;
+            justify-content: flex-start;
+            align-items: center;
+            font-size: 12px;
+        }
+
+        .dashboard .header .title{
+            display: inline-flex;
+            flex: 1 1 auto;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            letter-spacing: 10px;
+        }
+
+        .dashboard .header .time{
+            display: inline-flex;
+            flex: 1 1 auto;
+            justify-content: flex-end;
+            align-items: center;
+            font-size: 10px;
+        }
+
+        /* 面板内容 */
+        .dashboard .content{
+            width: 100%;
+            height: 410px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+        }
+
+        .dashboard .content .item{
+            width: 33.3%;
+            height:33.3%;
+            background: #4cd964;
+            color: white;
+            font-size: 10px;
+            box-sizing: border-box;
+        }
+
+        .dashboard .content .item .title{
+            text-align: center;
+        }
+
+        .dashboard .content .item .table{
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="dashboard">
+            <div class="header">
+                <div class="logo">
+                    <span>广东伟达智能装备股份有限公司</span>
+                </div>
+                <div class="title">
+                    <span>伟达智云数据大屏</span>
+                </div>
+                <div class="time">
+                    <span>2020-07-13 00:00:00</span>
+                </div>
+            </div>
+            <div class="content">
+                <div class="item">
+                    <div class="title"><span>模具故障汇总</span></div>
+                    <div class="table"></div>
+                </div>
+
+                <div class="item">
+                    <div class="title">设备停机分布图</div>
+                    <div class="table"></div>
+                </div>
+
+                <div class="item">
+                    <div class="title">当前辅机状态统计</div>
+                    <div class="table"></div>
+                </div>
+
+                <div class="item">
+                    <div class="title">产线OEE趋势</div>
+                    <div class="table"></div>
+                </div>
+
+                <div class="item">
+                    <div class="title">产品不良项分析</div>
+                    <div class="table"></div>
+                </div>
+
+                <div class="item">
+                    <div class="title">本月生产进度</div>
+                    <div class="table"></div>
+                </div>
+
+                <div class="item">
+                    <div class="title">设备近一小时耗电量排名</div>
+                    <div class="table"></div>
+                </div>
+
+                <div class="item">
+                    <div class="title">当前设备状态统计</div>
+                    <div class="table"></div>
+                </div>
+
+                <div class="item">
+                    <div class="title">产线产量排名</div>
+                    <div class="table"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./jquery-1.7.2.min.js"></script>
+    <script src="./highstock.js"></script>
+    <script src="./highcharts.js"></script>
+    <script>
+        $(()=>{
+            let curDashBoardWidth;
+            let curDashBoardHeight;
+            let curWindowWidth;
+            let curWindowHeight;
+            let mode = "center";
+
+            window.addEventListener("resize", debounce(setScale,100));
+
+            function debounce(callback, duration){
+                let timer = null;
+                return function(){
+                    clearTimeout(timer);
+                    timer = setTimeout(callback, duration);
+                }
+            }
+
+            function setScale(){
+                let dashboardEle = $(".dashboard");
+
+                //  获取当前面板宽高
+                curDashBoardWidth = dashboardEle.width();
+                curDashBoardHeight = dashboardEle.height();
+
+                //  获取window宽高
+                curWindowWidth = window.innerWidth;
+                curWindowHeight = window.innerHeight;
+                let transform = [];
+
+                if(curWindowWidth<800){
+                    transform.push(`scale(1)`);
+                    transform.push(`translate(0,0)`);
+                    dashboardEle.css('position', 'relative');
+                    dashboardEle.css('top', '0');
+                    dashboardEle.css('transform', transform.join(" "));
+                    return;
+                }
+
+
+                //  计算伸缩比例
+                let widthScale = curWindowWidth / curDashBoardWidth;
+                let heightScale = curWindowHeight / curDashBoardHeight;
+                let scale = widthScale<heightScale? widthScale: heightScale;
+                transform.push(`scale(${scale})`);
+
+                //  垂直居中
+                if('center'===mode && heightScale>widthScale){
+                    dashboardEle.css('position', 'relative');
+                    dashboardEle.css('top', '50%');
+                    transform.push(`translate(0,-50%)`);
+                }else{
+                    dashboardEle.css('position', 'relative');
+                    dashboardEle.css('top', '0');
+                    transform.push(`translate(0,0)`);
+                }
+
+                dashboardEle.css('transform', transform.join(" "));
+            }
+
+            function init(){
+                initMode();
+                setScale();
+            }
+
+            function initMode(){
+                switch(mode){
+                    case 'center':
+                        centerMode();
+                        break;
+                    default:
+                        defaultMode();
+                }
+            }
+
+            function defaultMode(){
+                $(".dashboard").css("transform-origin", "0 0");
+            }
+
+            function centerMode(){
+                let containerEle = $(".container");
+                let dashboardEle = $(".dashboard");
+                containerEle.css("justify-content", "center");
+                dashboardEle.css("transform-origin", "center 0");
+            }
+
+            init();
+        })
+    </script>
+</body>
+</html>
