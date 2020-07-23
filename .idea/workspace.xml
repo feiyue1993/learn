@@ -19,13 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="256e67d3-9b6a-48f1-bba2-8fd38dba7116" name="Default Changelist" comment="axios 错误处理">
+    <list default="true" id="256e67d3-9b6a-48f1-bba2-8fd38dba7116" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/html/01双引号标签.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/html/02描述列表.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/html/03链接标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ide/atom/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/API/Array.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/API/arguments.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/javascript/js循环中的中断和异步/demo01.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/javascript/webpack/api/api.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/javascript/webpack/common/border.scss" afterDir="false" />
@@ -50,10 +47,6 @@
       <change afterPath="$PROJECT_DIR$/javascript/webpack/utils/node.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/javascript/webpack/utils/validate.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/javascript/webpack/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端项目/小程序/highcharts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端项目/小程序/highstock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端项目/小程序/jquery-1.7.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端项目/小程序/test2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/javascript/webpack/node_modules/" />
@@ -153,7 +146,7 @@
         <entry file="file://$PROJECT_DIR$/ide/atom/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="407">
+              <first_editor relative-caret-position="645">
                 <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
               </first_editor>
               <second_editor />
@@ -230,13 +223,7 @@
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="ide" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="ide" type="462c0819:PsiDirectoryNode" />
-              <item name="atom" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
@@ -355,7 +342,7 @@
       <workItem from="1594006592061" duration="24537000" />
       <workItem from="1594080729080" duration="25288000" />
       <workItem from="1594534285775" duration="16966000" />
-      <workItem from="1595167782114" duration="8941000" />
+      <workItem from="1595167782114" duration="9197000" />
     </task>
     <task id="LOCAL-00001" summary="块级作用域">
       <created>1592916471702</created>
@@ -448,15 +435,21 @@
       <option name="project" value="LOCAL" />
       <updated>1594385411598</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="atom">
+      <created>1595486108773</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1595486108773</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31058000" />
+    <option name="totallyTimeSpent" value="31314000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="79" y="35" width="1680" height="957" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -524,7 +517,8 @@
     <MESSAGE value="Beta 1.0.0" />
     <MESSAGE value="axios 基础功能" />
     <MESSAGE value="axios 错误处理" />
-    <option name="LAST_COMMIT_MESSAGE" value="axios 错误处理" />
+    <MESSAGE value="atom" />
+    <option name="LAST_COMMIT_MESSAGE" value="atom" />
   </component>
   <component name="WindowStateProjectService">
     <state x="820" y="277" width="698" height="342" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1592891267902">
@@ -707,7 +701,7 @@
     <entry file="file://$PROJECT_DIR$/ide/atom/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="407">
+          <first_editor relative-caret-position="645">
             <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
           </first_editor>
           <second_editor />
