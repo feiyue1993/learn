@@ -1,0 +1,58 @@
+html, body{
+  width: 100%;
+  height: 100%;
+}
+
+/*
+    参数一(默认可不写) 指定渐变方向 to bottom/ to left/ to top/ to right/ 或者 n%
+    为实现渐变至少还需要定义两个颜色节点
+    每个节点可由颜色值和位置值组成[颜色值 位置值,颜色值 位置值,...]
+    颜色值:必填项
+    位置值:可为长度或者百分比,非必填项
+ */
+
+/* 斜方格 */
+.linear-gradient1{
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(45deg, #a8ff78 50%, #78ffd6 50%);
+  background-size: 25% 25%;
+}
+
+/* 斜条纹 */
+.linear-gradient2{
+  width: 300px;
+  height: 300px;
+  /*
+  显示效果相同
+  如果某个色值的位置值比前面的小,将会被设置为之前最大的位置值
+   */
+  /* background: linear-gradient(45deg, #a8ff78 25%, #78ffd6 0, #78ffd6 50%, #a8ff78 0, #a8ff78 75%, #78ffd6 0); */
+  background: linear-gradient(45deg, #a8ff78 25%, #78ffd6 25%, #78ffd6 50%, #a8ff78 50%, #a8ff78 75%, #78ffd6 75%);
+  background-size: 25% 25%;
+}
+
+/*
+repeating-linear-gradient与linear-gradient的区别是不需要background-size设置背景大小
+ */
+.repeating-linear-gradient1{
+  width: 300px;
+  height: 300px;
+  background: repeating-linear-gradient(45deg, #a8ff78 0px, #a8ff78 10px, #78ffd6 10px, #78ffd6 20px);
+}
+
+/*
+第一参数 shape size position
+ */
+.radial-gradient1{
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(#a8ff78 50%, #78ffd6 0);
+  background-size: 40px 40px;
+}
+
+.repeating-radial-gradient1{
+  width: 300px;
+  height: 300px;
+  background: repeating-radial-gradient(#a8ff78 25%, #78ffd6 25%, #78ffd6 50%, #a8ff78 50%, #a8ff78 75%,  #78ffd6 0);
+}

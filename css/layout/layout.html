@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="./layout.css">
+  </head>
+  <body>
+    <!-- 水平垂直居中 -->
+
+    <h1>flex居中</h1>
+    <div class="container" style="justify-content: center; align-items: center;">
+      <div class="icon">:)</div>
+    </div>
+
+    <h1>flex多元素水平居中</h1>
+    <div class="container" style="justify-content: center; align-items: center;">
+      <div class="icon">:)</div>
+      <div class="icon">:)</div>
+      <div class="icon">:)</div>
+    </div>
+
+    <h1>flex多元素垂直居中</h1>
+    <div class="container" style="justify-content: center; align-items: center; flex-flow: column wrap;">
+      <div class="icon">:)</div>
+      <div class="icon">:)</div>
+    </div>
+
+    <h1>flex align-self</h1>
+    <div class="container" style="justify-content: center;">
+      <div class="icon" style="align-self: center;">:)</div>
+      <div class="icon" style="align-self: center;">:)</div>
+    </div>
+
+    <!-- place-content是align-content和justify-content的简写 -->
+    <!-- place-items是align-items和justify-items的简写 -->
+    <h1>place-content place-items</h1>
+    <div class="container" style="place-content: center; place-items: center;">
+      <div class="icon">:)</div>
+      <div class="icon">:)</div>
+    </div>
+
+    <h1>margin auto</h1>
+    <div class="container" style="place-content: center; place-items: center;">
+      <div class="icon" style="margin:  auto;">:)</div>
+    </div>
+
+    <!-- place -->
+    <h1>grid居中</h1>
+    <div class="grid_container">
+      <div class="icon">:)</div>
+      <div class="icon">:)</div>
+    </div>
+
+    <h1>居中多个单元格中的内容</h1>
+    <div class="grid_container">
+      <div style="display:grid; place-content: center; background: #8E2DE2;">
+        <div>item1</div>
+      </div>
+      <div style="display:grid; place-content: center; background: #8E2DE2;">
+        <div>item2</div>
+      </div>
+    </div>
+    <script>
+      window.scrollTo(0,document.body.scrollHeight)
+    </script>
+  </body>
+</html>
