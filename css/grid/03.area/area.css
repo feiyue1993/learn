@@ -1,0 +1,96 @@
+html, body{
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background: #a8ff78;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/*
+*  命名网格区域
+*/
+.wrapper{
+  width: 300px;
+  height: 300px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+    "hd hd hd"
+    "sd main main"
+    "ft ft ft"
+}
+
+/*
+* 留出空白的网格单元
+*/
+.wrapper1{
+  width: 300px;
+  height: 300px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+    "hd hd hd"
+    "sd main main"
+    ". ft ft"
+}
+
+/*
+* grid-template 只包含显示网格属性
+*/
+.wrapper2{
+  width: 300px;
+  height: 300px;
+  display: grid;
+  grid-template:
+    "hd hd   hd" minmax(100px, auto)
+    "sd main main" minmax(100px, auto)
+    "sd ft ft" minmax(100px, auto)
+    / 1fr 1fr 1fr
+}
+
+/*
+* grid 包含显示和隐式网格属性
+* 会把gap置为零,不能在简写中设置间距值
+* grid-template-rows
+* grid-template-columns
+* grid-template-areas
+* grid-auto-rows
+* grid-auto-columns
+* grid-auto-flow
+*/
+.wrapper3{
+  width: 300px;
+  height: 300px;
+  display: grid;
+  grid-template:
+    "hd hd   hd" minmax(100px, auto)
+    "sd main main" minmax(100px, auto)
+    "sd ft ft" minmax(100px, auto)
+    / 1fr 1fr 1fr
+}
+
+.box{
+  display: grid;
+  border: 1px dashed black;
+  place-content: center;
+}
+
+.header{
+  grid-area: hd;
+}
+
+.sidebar{
+  grid-area: sd;
+}
+
+.content{
+  grid-area: main;
+}
+
+.footer{
+  grid-area: ft;
+}

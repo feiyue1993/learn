@@ -1,0 +1,44 @@
+/*
+* 命名网格线条
+* 创建响应式页面
+*/
+.wrapper{
+  display: grid;
+  width: 300px;
+  height: 300px;
+  /* 定义多个名字时,写在方括号中并用空格隔开 */
+  grid-template-columns: [main-start] 1fr [content-start content-start] 1fr [content-end] 1fr [main-end];
+  grid-template-rows: [main-start] 1fr [content-start] 1fr [content-end] 1fr [main-end];
+  border: 1px solid black;
+}
+
+.box{
+  border: 1px dashed black;
+}
+
+.box1{
+  grid-column: main-start / main-end;
+  grid-row-start: main-start;
+  grid-row-end: content-end;
+}
+
+/*
+*  当为gridline命名时，使用-start和-end作为后缀,网格会为该区域创建一个名字,名字就是后缀前的单词.
+*/
+.wrapper1{
+  display: grid;
+  width: 300px;
+  height: 300px;
+  grid-template-columns: [main-start] 1fr [content-start] 1fr [content-end] 1fr [main-end];
+  grid-template-rows: [main-start] 1fr [content-start] 1fr [content-end] 1fr [main-end];
+  border: 1px solid black;
+}
+
+.wrapper2{
+  display: grid;
+  width: 300px;
+  height: 300px;
+  grid-template-columns: repeat(3,[column] 1fr);
+  grid-template-rows: repeat(3,[row] 1fr);
+  border: 1px solid black;
+}

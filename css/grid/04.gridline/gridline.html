@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="../common/common.css">
+    <link rel="stylesheet" href="./gridline.css">
+  </head>
+  <body>
+    <h1>在定义网格时命名网格线条</h1>
+    <div class="wrapper">
+      <div class="box box1">header</div>
+      <div class="box box2">sidebar</div>
+      <div class="box box3">main</div>
+      <div class="box box4">footer</div>
+    </div>
+
+    <h1>由命名定义的隐式网格区域</h1>
+    <div class="wrapper1">
+      <div class="box" style="grid-area: content;">header</div>
+    </div>
+
+    <h1>repeat定义重复名字</h1>
+    <div class="wrapper2">
+      <div class="box" style="grid-column: column 2; grid-row: row 2">header</div>
+    </div>
+  </body>
+</html>

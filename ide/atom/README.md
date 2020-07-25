@@ -20,8 +20,6 @@ atom导航栏操作
   - d                       复制文件
   - f2                      重命名文件
   - delete                  删除文件
-  - ctrl+t | ctrl+p         查找文件
-  - ctrl+b                  文件切换
 ```
 
 ```

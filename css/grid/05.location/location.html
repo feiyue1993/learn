@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="../common/common.css">
+    <link rel="stylesheet" href="./location.css">
+  </head>
+  <body>
+    <!--
+      grid没有明确指定子项目位置时,
+      默认是每个单元格放一个子元素
+      默认流向是按行排列项目
+      显示的网格中没有足够的行用来摆放所有项目,会创建隐式行
+    -->
+    <h1>默认定位规则</h1>
+    <div class="wrapper">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+      <div class="box">5</div>
+    </div>
+
+    <!--
+      隐式行默认是自适应大小的
+      可以通过grid-auto-rows属性来控制它们的大小
+        - 可以固定尺寸
+        - 可以minmax设置最小尺寸
+        - 可以设置轨道列表,行的大小按轨道列表设置
+    -->
+    <h1>调整网格中隐式行的大小-固定值</h1>
+    <div class="wrapper1">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+      <div class="box">5</div>
+    </div>
+
+    <h1>调整网格中隐式行的大小-minmax</h1>
+    <div class="wrapper2">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+      <div class="box">5</div>
+    </div>
+
+    <h1>调整网格中隐式行的大小-轨道列表</h1>
+    <div class="wrapper3">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+      <div class="box">5</div>
+      <div class="box">6</div>
+      <div class="box">7</div>
+    </div>
+
+    <!--
+      按列自动定位
+      设置grid-auto-flow: column,网格将按照grid-template-rows按列摆放项目,
+      当一列项目排满就继续排到下一列
+    -->
+    <h1>按列自动定位</h1>
+    <div class="wrapper4">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+      <div class="box">5</div>
+      <div class="box">6</div>
+      <div class="box">7</div>
+      <div class="box">8</div>
+      <div class="box">9</div>
+    </div>
+
+    <!--
+      被自动定位的项目顺序
+        1.为修改过顺序的文档排序 order
+        2.含有定位属性的项目
+    -->
+    <h1>被自动定位的项目顺序</h1>
+    <div class="wrapper5">
+      <div class="box">box1</div>
+      <div class="box box2">box2</div>
+      <div class="box">box3</div>
+      <div class="box">box4</div>
+      <div class="box box5">box5</div>
+      <div class="box">box6</div>
+      <div class="box">box7</div>
+      <div class="box">box8</div>
+      <div class="box">box9</div>
+      <div class="box">box10</div>
+      <div class="box">box11</div>
+      <div class="box">box12</div>
+    </div>
+
+    <script type="text/javascript" src="../common/common.js"></script>
+  </body>
+</html>
