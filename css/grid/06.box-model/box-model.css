@@ -1,0 +1,35 @@
+.box{
+  border: 1px dashed black;
+}
+/*
+*  设置align-items属性相当于为所有子项设置align-self
+*/
+.wrapper1{
+  display: grid;
+  grid-gap: 10px;
+  grid-template-areas:
+    "a a a a b b b b"
+    "a a a a b b b b"
+    "c c c c d d d d"
+    "c c c c d d d d";
+  grid-template-columns: repeat(8, 1fr);
+  grid-auto-rows: 100px;
+  align-items: center;
+  justify-items: center;
+}
+
+.wrapper1 .item1{
+  grid-area: a;
+}
+
+.wrapper1 .item2{
+  grid-area: b;
+}
+
+.wrapper1 .item3{
+  grid-area: c;
+}
+
+.wrapper1 .item4{
+  grid-area: d;
+}
